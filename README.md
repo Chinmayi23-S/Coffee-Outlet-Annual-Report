@@ -7,27 +7,31 @@ A newly launched coffee outlet wanted to understand its first-year performance, 
 Key Questions:
 
 Which products generated the most revenue?
-Which days, months, and hours had the highest sales?
+Which months, hours,  shifts had the highest sales?
 Which customer segments (if data available) contributed most?
 Are there opportunities to increase revenue via promotions or upselling?
 
 Data & Approach
-Dataset: Point-of-Sale (POS) transaction data for 12 months
-Columns: Date, Time, Product, Quantity, Price, Payment Method, Customer Type (if available)
-Tools Used: Power BI / Tableau / Excel
+Dataset: Point of Sales (PoS) transaction data for FY 2024-25
+Tables: Coffe_sales data, Date, Time
+Columns: Hour of day, Sales, Coffee name, Date, Time, Shift of day
+Tools Used: Microsoft Excel, PostgreSQL, Power BI
+
 Approach:
 Cleaned and aggregated transaction data
-Calculated monthly, weekly, and daily revenue trends
-Analyzed product-wise sales, top-selling items, and revenue contribution
-Examined peak hours and days for staffing and inventory planning
+Calculated monthly, weekly, daily, hourly sales trends, and month on month growth
+Analyzed Shift-wise sales, top-selling coffee products
+Examined peak hours, months for staffing and inventory planning
+
 Key Insights / Findings
-Top-selling products: Espresso and Cappuccino accounted for 55% of total revenue.
-Peak months: December and March showed highest sales, likely due to holidays and promotions.
-Peak hours: 8–10 AM and 4–6 PM were busiest times.
-Revenue by payment method: Majority of customers used digital payments, suggesting opportunity for loyalty programs or app promotions.
-Opportunities identified: Low-selling products could be bundled or promoted, staffing can be optimized during peak hours, and weekend promotions could increase sales further.
+Top-selling products: Latte and Americano with Mlik accounted for 54% of total revenue.
+Peak months: October and February showed highest sales, likely due to holidays and promotions.
+Peak hours: 9–10 AM and 6–8 PM were busiest times.
+Opportunities identified: Low-selling products could be bundled or promoted, staffing can be optimized during peak hours
+
 Recommendations / Actions
-Introduce loyalty rewards for digital payments to boost repeat visits
 Focus marketing on weekend promotions and holiday campaigns
 Reconsider product mix and pricing for slow-moving items
 Adjust staffing schedules for peak hours to improve customer service
+
+
