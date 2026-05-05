@@ -15,7 +15,7 @@ Data & Approach
 Dataset: Point of Sales (PoS) transaction data for FY 2024-25
 Tables: Coffe_sales data, Date, Time
 Columns: Hour of day, Sales, Coffee name, Date, Time, Shift of day
-Tools Used: Microsoft Excel, PostgreSQL, Power BI
+Tools Used: Microsoft Excel, Power BI
 
 Approach:
 Cleaned and aggregated transaction data
@@ -24,7 +24,7 @@ Analyzed Shift-wise sales, top-selling coffee products
 Examined peak hours, months for staffing and inventory planning
 
 Key Insights / Findings
-Top-selling products: Latte and Americano with Mlik accounted for 54% of total revenue.
+Top-selling products: Latte and Americano with Milk accounted for 54% of total revenue.
 Peak months: October and February showed highest sales, likely due to holidays and promotions.
 Peak hours: 9–10 AM and 6–8 PM were busiest times.
 Opportunities identified: Low-selling products could be bundled or promoted, staffing can be optimized during peak hours
